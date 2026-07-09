@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Bronze layer raw sales data"
+
+    database: apple_sales
+    schema: bronze
+
+    tables:
+      - name: sales
+        description: "Raw Apple sales transactions"

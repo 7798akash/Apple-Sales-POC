@@ -1,0 +1,15 @@
+# dbt
+target/
+logs/
+dbt_packages/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local files
+.env
+
+# dbt profile
+profiles.yml
+.user.yml

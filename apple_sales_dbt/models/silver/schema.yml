@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: "Cleaned Apple sales data"
+
+    columns:
+      - name: transaction_id
+        tests:
+          - not_null
+          - unique
+
+      - name: product_name
+        tests:
+          - not_null
