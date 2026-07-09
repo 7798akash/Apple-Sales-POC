@@ -193,6 +193,4 @@ dbt test
 
 # 👨‍💻 Author
 
-**Akash Rajpoot**
-
-Senior Data Engineer
+Data Engineer | Python | SQL | PostgreSQL | dbt
